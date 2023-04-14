@@ -14,10 +14,17 @@
 
             <section class="section">
                 <div class="notification is-link">
-                    <figure class = "image image image is-16by9">
-                        <img src = "logo.png">
-                    </figure>
-                    <p class="has-text-right">January 8, 2012</p>
+                    <div class="columns block is-mobile">
+                        <div class="column is-one-third">
+                            <figure class="image is-128x128px my-1">
+                                <img src="logo.png">
+                            </figure>
+                        </div>
+
+                        <div class="column is-two-thirds">
+                            <p class="my-6 has-text-right">January 8, 2012</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -28,7 +35,14 @@
                         <h2 class="subtitle">Claims to be interested in web development</h2>
                         <div class="columns block is-mobile">
                             <div class="column">
-                                <p>image + text here!</p>
+                                <div class="box">
+                                    <figure class="image is-128x128px">
+                                        <img src="lion-layers-2.svg">
+                                    </figure>
+                                    <p class="has-text-weight-bold">A lion has been seen roaming
+                                        the empty library.
+                                    </p>
+                                </div>
 
                                 <p>A lion has been seen roaming the empty science library on campus.
                                     The police, noticing the intrusion, approached the lion and asked
@@ -49,15 +63,15 @@
                                 </p>
 
                                 <p>He continued, <span class="is-italic">"First they invented a lot of
-                                    tags. Then they fell out of love for them, and decided it's cooler
-                                    to do things using the same few tags all over the place, decorating
-                                    them with yet another language called CSS (the name at least it
-                                    reminds me of my feeling towards it, for I know latin). So now you
-                                    need two languages to get one thing accomplished! And the whole
-                                    thing is so complex that to lay down something with a few columns
-                                    on a page,you practically need a university degree! And look! It
-                                    cannot even balance the content on these two colums, for goodness
-                                    sake!"</span> The police thought it better to leave the lion alone,
+                                        tags. Then they fell out of love for them, and decided it's cooler
+                                        to do things using the same few tags all over the place, decorating
+                                        them with yet another language called CSS (the name at least it
+                                        reminds me of my feeling towards it, for I know latin). So now you
+                                        need two languages to get one thing accomplished! And the whole
+                                        thing is so complex that to lay down something with a few columns
+                                        on a page,you practically need a university degree! And look! It
+                                        cannot even balance the content on these two colums, for goodness
+                                        sake!"</span> The police thought it better to leave the lion alone,
                                     as he looked quite ready to bite anyone who came close.</p>
                             </div>
                         </div>
@@ -81,9 +95,51 @@
                             which the integral of the luminous flux is zero across any closed surface."
                             The contribution is currently undergoing peer review.
                         </p>
-                </div>
+                    </div>
             </section>
         </div>
+
+        <section class="section">
+            <div class="tile is-ancestor">
+                <div class="tile is-vertical is-8">
+                    <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-primary">
+                                <p class="subtitle">Ad1</p>
+                            </article>
+
+                            <article class="tile is-child notification is-warning">
+                                <p class="subtitle">Ad2</p>
+                            </article>
+                        </div>
+
+                        <div class="tile is-parent is-vertical">
+                            <article class="tile is-child notification is-info">
+                                <p class="subtitle">Ad3</p>
+                            </article>
+
+                            <article class="tile is-child notification is-info">
+                                <p class="subtitle">Ad4</p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification is-danger">
+                            <p class="subtitle">Ad6</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-success">
+                        <div class="content">
+                            <p class="subtitle">Ad5</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
     </section>
 
