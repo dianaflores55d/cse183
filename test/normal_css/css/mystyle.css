@@ -1,0 +1,13 @@
+p {
+    font-size: 1.5em;
+}
+
+p.intro {
+    color: rgb(57, 222, 148);
+    font-style: italic;
+}
+
+p.conclusion {
+    color: rgb(120, 40, 216);
+    font-weight: bold;
+}
